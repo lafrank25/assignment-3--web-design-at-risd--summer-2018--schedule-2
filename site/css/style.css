@@ -5,11 +5,12 @@
 
 #flex-container {
    display: flex;
+   display:inline-grid;
    justify-content: center;
 }
 
 .flex-item {
-   width: 100px;
+   width: 150px;
    height: 30px;
-   padding: 20px;
+   padding: 22px;
 }

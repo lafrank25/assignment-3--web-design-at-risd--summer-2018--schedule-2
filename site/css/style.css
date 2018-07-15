@@ -8,7 +8,7 @@
    justify-content: center;
 }
 
-section {
+body {
    background: url('../img/IMG_2139.jpg') fixed 0 0/cover;
 }
 
@@ -56,12 +56,17 @@ div h1 {
    font-size: 8rem;
    margin: 36px;
    font-family: 'Poiret One', cursive;
-
 }
 
 div h2 {
    font-size: 1rem;
    line-height: 1.8;
+   font-family: 'Poiret One', cursive;
+}
+
+div h3 {
+   font-size: 3rem;
+   line-height: 2;
    font-family: 'Poiret One', cursive;
 }
 

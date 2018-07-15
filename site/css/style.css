@@ -42,7 +42,7 @@ a:visited {
    position: relative;
    text-align: left;
    font-size: 7.5rem;
-   margin-bottom: 1px;
+   margin-bottom: 3px;
    font-family: 'Poiret One', cursive;
    padding: 40px;
    color: white;
@@ -54,7 +54,7 @@ a:visited {
    min-height: 2rem;
    position: relative;
    text-align: right;
-   font-size: 2rem;
+   font-size: 3rem;
    font-family: 'Poiret One', cursive;
    padding: 40px;
    margin-top: 50px;
@@ -76,21 +76,23 @@ div p {
 div h1 {
    justify-content: center;
    font-size: 8rem;
-   margin: 36px;
+   margin: 30px;
    font-family: 'Poiret One', cursive;
    color: white;
 }
 
 div h2 {
-   font-size: 2rem;
+   font-size: 3rem;
    line-height: 1.8;
    font-family: 'Poiret One', cursive;
+   color: white;
 }
 
 div h3 {
    font-size: 3rem;
    line-height: 2;
    font-family: 'Poiret One', cursive;
+   color: white;
 }
 
 h1, h2, div {
@@ -105,8 +107,8 @@ div div {
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
   color: #f2f2f2;
+  font-family: 'Poiret One', cursive;
   position: fixed;
   bottom: 0;
   width: 100%;

@@ -30,6 +30,10 @@ a:visited {
     color: white;
 }
 
+#home {
+   padding-bottom: 50px
+}
+
 #banner > h1 {
    justify-content: center;
    cursor: context-menu;
@@ -57,19 +61,16 @@ a:visited {
    color: white;
 }
 
-#home {
-   justify-content: center;
-   font-size: 1rem;
-   margin: 36px;
-   font-family: 'Poiret One', cursive;
-}
 
 div p {
    font-size: 1rem;
    line-height: 1.8;
-   text-align: center;
-   width: 50%;
-   padding: 50px;
+   text-align: left;
+   width: 40%;
+   padding-left: 60px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-family: sans-serif;
 }
 
 div h1 {
@@ -97,21 +98,27 @@ h1, h2, div {
    text-align: center;
 }
 
+div div {
+   padding-bottom: 50px;
+   font-size: .8rem;
+}
+
 nav {
    text-align: center;
    margin: auto;
+   font-size: 1.5rem;
+   position: sticky;
 }
 
-#navbar {
-  overflow: hidden;
-}
 
 #navbar a {
   float: left;
   color: white;
-  text-align: center;
   padding: 50px;
   text-decoration: none;
+  font-family: 'Poiret One', cursive;
+  position: sticky;
+  bottom: 10px;
 }
 
 .sticky + .content {
@@ -120,7 +127,7 @@ nav {
 
 .sticky {
   position: fixed;
-  top: 0;
+  top: 10px;
   width: 100%;
   width: 100%;
   z-index: 9999;

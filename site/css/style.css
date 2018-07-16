@@ -18,9 +18,9 @@ body {
    line-height: .7;
    position: relative;
    text-align: left;
-   font-size: 6rem;
-   font-family: 'Monoton', cursive;
-   padding: 5px;
+   font-size: 7rem;
+   font-family: 'Poiret One', cursive;
+   padding: 0px;
    margin-left: 20px;
    color: #FFDB3A;
 }
@@ -63,9 +63,10 @@ div h1 {
 
 div h2 {
    font-size: 3rem;
-   line-height: 1.8;
+   line-height: 1;
    font-family: 'Poiret One', cursive;
    margin-left: 18px;
+   margin-top: 30px;
    color: black;
 }
 

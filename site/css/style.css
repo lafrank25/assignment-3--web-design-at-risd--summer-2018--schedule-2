@@ -12,26 +12,16 @@ body {
    background: url('../img/IMG_2210bw.jpg') fixed 0 0/cover;
 }
 
-body {
-   height:1600px;
-   background-color: white;
-}
-
 a:link {
    text-decoration: none;
-   color: white;
 }
 
 a:hover {
-    color: #DB3863;
+    color: black;
 }
 
 a:visited {
     color: white;
-}
-
-#home {
-   padding-bottom: 50px
 }
 
 #banner > h1 {
@@ -62,34 +52,33 @@ a:visited {
 }
 
 
-div p {
+#content > p {
    font-size: 1rem;
    line-height: 1.8;
    text-align: left;
-   width: 40%;
-   padding-left: 60px;
-   padding-top: 20px;
+   width: 30%;
+   padding-left: 40px;
+   padding-top: 10px;
    padding-bottom: 20px;
-   font-family: sans-serif;
+   font-family: 'Open Sans', sans-serif;
 }
 
-div p:nth-of-type(odd) {
-   justify-content: center;
-   cursor: context-menu;
-   min-height: 1rem;
-   position: relative;
-   text-align: right;
+#content > p:nth-of-type(odd) {
+   position: static;
+   text-align: left;
    font-size: 1rem;
    font-family: 'Open Sans', sans-serif;
-   padding: 40px;
-   margin-top: 50px;
+   padding-left: 40px;
+   padding-top: 10px;
    color: black;
 }
 
 div h1 {
    justify-content: center;
    font-size: 8rem;
-   margin: 30px;
+   margin-top: 30px;
+   margin-bottom: 40px;
+   margin-left: 20px;
    font-family: 'Poiret One', cursive;
    color: rgb(245, 206, 67);
 }
@@ -98,28 +87,34 @@ div h2 {
    font-size: 3rem;
    line-height: 1.8;
    font-family: 'Poiret One', cursive;
+   margin-left: 18px;
    color: white;
 }
 
-div h3 {
-   font-size: 3rem;
-   line-height: 2;
+#content h3 {
+   font-size: 4rem;
+   line-height: 0.5;
    font-family: 'Poiret One', cursive;
+   margin-top: 25px;
+   margin-left: 40px;
    color: white;
 }
 
 h1, h2, div {
-   color: black;
-   text-align: center;
+   text-align: left;
+   padding-left: 20px;
 }
 
 div div {
+   padding-left: 10px;
    padding-bottom: 50px;
-   font-size: .8rem;
+   font-size: 3rem;
+   font-family: 'Poiret One', cursive;
 }
 
 .navbar {
   overflow: hidden;
+  background-color: rgb(245, 206, 67);
   color: #f2f2f2;
   font-family: 'Poiret One', cursive;
   position: fixed;
@@ -130,7 +125,7 @@ div div {
 .navbar a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 50px;
   text-decoration: none;
@@ -140,7 +135,7 @@ div div {
 
 a.active {
   background-color: #4CAF50;
-  color: black;
+  color: white;
 }
 
 .main {

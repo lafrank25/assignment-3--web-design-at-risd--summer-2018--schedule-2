@@ -15,13 +15,13 @@ body {
 #banner > h1 {
    justify-content: center;
    cursor: context-menu;
-   min-height: 1rem;
    line-height: .7;
    position: relative;
    text-align: left;
    font-size: 6rem;
    font-family: 'Monoton', cursive;
    padding: 5px;
+   margin-left: 20px;
    color: #FFDB3A;
 }
 
@@ -32,7 +32,6 @@ h1:nth-of-type(2) {
 #banner > h2 {
    justify-content: flex-end;
    cursor: context-menu;
-   min-height: 2rem;
    position: relative;
    text-align: right;
    font-size: 3rem;
@@ -53,21 +52,10 @@ h1:nth-of-type(2) {
    font-family: 'Raleway', sans-serif;
 }
 
-#content > p:nth-of-type(odd) {
-   position: static;
-   text-align: left;
-   font-size: 1rem;
-   font-family: 'Raleway', sans-serif;
-   padding-left: 40px;
-   padding-top: 10px;
-   color: black;
-}
-
 div h1 {
    justify-content: center;
    font-size: 8rem;
    margin-top: 40px;
-   margin-bottom: 0px;
    margin-left: 10px;
    font-family: 'Poiret One', cursive;
    color: #FFDB3A;
